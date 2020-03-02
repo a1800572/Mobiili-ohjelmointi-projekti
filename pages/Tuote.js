@@ -21,7 +21,6 @@ export default class Tuote extends React.Component {
 
           <Text>{item.kuvaus}</Text>
 
-
         <TouchableOpacity onPress={this.props.onAdd} style={styles.buttonadd}>
         <Icon name="plus-square" type="font-awesome" color="white" size={30} />
         <Text style={styles.text1}>Lisää kärryyn</Text>
