@@ -38,7 +38,7 @@ class Consoles extends React.Component {
               onAdd={() => this.onAdd(item, index)}
             />
           )}
-          keyExtractor={item => item._id}
+          keyExtractor={item => item._id.toString()}
         />
       </SafeAreaView>
     );
